@@ -24,7 +24,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "parcel app/index.html"
+    "dev": "parcel app/index.html",
+    "build": "parcel build app/index.html"
   },
   "repository": {
     "type": "git",
