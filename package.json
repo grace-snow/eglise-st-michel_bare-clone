@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "email-templates": "^7.1.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-mailer": "^0.3.1",
+    "nodemailer": "^6.4.14",
+    "nodemailer-mailgun-transport": "^2.0.1",
+    "nodemon": "^2.0.6",
+    "swig": "^1.4.2",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.4.8"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "name": "stmichel",
+  "description": "church",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TROSZAK/StMichel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TROSZAK/StMichel/issues"
+  },
+  "homepage": "https://github.com/TROSZAK/StMichel#readme"
+}

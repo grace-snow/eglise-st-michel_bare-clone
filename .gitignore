@@ -1,0 +1,14 @@
+# on ne versionne pas le code tiers
+
+#node_modules
+
+#ni le code généré
+#dist
+#.cache
+
+#ignorer le .md
+#install
+
+
+node_modules
+.vscode/
